@@ -43,7 +43,7 @@ android {
 
   adbOptions {
     timeOutInMs 10 * 60 * 1000
-    installOptions "-d","-t"
+    installOptions "-d", "-t"
   }
 
   com.android.ddmlib.DdmPreferences.setTimeOut(120000)
